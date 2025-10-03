@@ -144,22 +144,6 @@ function HomePage() {
                     </div>
                 )}
 
-
-                <div className="card">
-                    <h3 className="card-title mb-3">Ações Rápidas</h3>
-                    <div className="btn-group" style={{ flexWrap: 'wrap', gap: 'var(--spacing-md)' }}>
-                        <Link to="/clientes" className="btn btn-primary">
-                            👥 Gerenciar Clientes
-                        </Link>
-                        <Link to="/culturas" className="btn btn-secondary">
-                            🌾 Gerenciar Culturas
-                        </Link>
-                        <Link to="/sacas" className="btn btn-outline">
-                            📦 Gerenciar Sacas
-                        </Link>
-                    </div>
-                </div>
-
                 <div className="card" style={{
                     background: 'linear-gradient(135deg, var(--light-green) 0%, var(--secondary-green) 100%)',
                     textAlign: 'center',
